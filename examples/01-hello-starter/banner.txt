@@ -1,0 +1,9 @@
+${AnsiColor.BRIGHT_RED}'''''''''''''''''''''''''''''''''''
+${AnsiColor.BRIGHT_RED}''''' Columbus Code Camp 2016 '''''
+${AnsiColor.BRIGHT_RED}'''''''''''''''''''''''''''''''''''
+${AnsiColor.BRIGHT_RED}'''''''''''''''''''''''''''''''''''
+${AnsiColor.YELLOW}
+${AnsiColor.YELLOW}:: Spring-Boot   ::  ${spring-boot.version}
+${AnsiColor.YELLOW}:: Application   ::  ${info.service.name}
+${AnsiColor.YELLOW}                     ${info.service.version}
+${AnsiColor.YELLOW}

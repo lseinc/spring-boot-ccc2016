@@ -1,0 +1,28 @@
+<template>
+    <require from="./welcome.css"></require>
+
+    <section class="welcome">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title">Spring Boot Rocks!!! (version: ${version})</h3>
+            </div>
+            <div class="panel-body col-lg-10">
+                <div class="form-group">
+                    <form role="form" class="form-horizontal" click.trigger="toUpper()">
+                        <div class="form-group">
+                            <label class="col-sm-5 -align-left">toUpper:</label>
+                            <div class="col-sm-8 -align-right">
+                                <input type="text" placeholder="lower" size="25" class="form-control" value.bind="lower">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-3 text-right">
+                                <button type="submit" class="btn btn-success">UpperCase</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

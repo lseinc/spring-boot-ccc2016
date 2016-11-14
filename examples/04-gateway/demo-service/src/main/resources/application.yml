@@ -1,0 +1,7 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8181/eureka
+  instance:
+    instanceId: ${spring.application.name}:${server.ports.local.server.port:${random.value}}
+    leaseRenewalIntervalInSeconds: 10

@@ -1,0 +1,16 @@
+<template>
+  <require from="./index.css"></require>
+  <section class="settings au-animate">
+    <form role="form" submit.trigger="submit()" >
+      <div class="form-group row">
+        <label class="col-md-2">Version URL:</label>
+        <input class="col-md-4" type="text" size="40" value.bind="versionUrl" />
+      </div>
+      <div class="form-group row">
+        <label class="col-md-2">toUpper URL:</label>
+        <input class="col-md-4" type="text" size="40" value.bind="toUpperUrl" />
+      </div>
+      <button type="submit" >Save</button>
+    </form>
+  </section>
+</template>
